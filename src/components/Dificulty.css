@@ -1,6 +1,11 @@
 #dificulty {
     text-align: center;
+    justify-content: center;
+    background-color: #ffffff05;
+    border-radius: 10%;
+    padding: 5%;
     max-width: 500px;
+    height: 70vh;
   }
   
   #dificulty h2,
@@ -10,8 +15,8 @@
   }
     
   #dificulty img {
-    margin-top: 2rem;
-    max-width: 300px;
+    margin-top: 5rem;
+    max-width: 10000px;
   }
   
   #dificulty button {

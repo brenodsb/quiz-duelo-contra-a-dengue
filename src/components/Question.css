@@ -1,10 +1,17 @@
 #question {
-    background-color: #ffffff0a;
-    border-radius: 1rem;
-    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff05;
+    border-radius: 10%;
+    padding: 5%;
     width: 500px;
+    max-width: 500px;
+    height: 70vh;
   }
-  
+
   #question p {
     margin-bottom: 1rem;
   }
@@ -12,12 +19,23 @@
   #question p.text {
     color: #018fd7;
   }
-  
+
   #question h2 {
     margin-bottom: 2rem;
   }
-  
+
   #question button {
     border: 2px solid #fff;
     margin: 1rem;
+  }
+
+  #question #options-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 768px) {
+    #question {
+      width: 50%;
+    }
   }

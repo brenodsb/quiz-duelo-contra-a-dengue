@@ -3,7 +3,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+    background-color: #ffffff05;
+    border-radius: 10%;
+    padding: 5%;
+    max-width: 500px;
+    height: 70vh;
 }
 
 #home h2,
@@ -42,3 +47,9 @@
 #home p.text{
     font-size: 1.2rem;
 }
+
+@media screen and (max-width: 768px) {
+    #home {
+      width: 80%;
+    }
+  }
