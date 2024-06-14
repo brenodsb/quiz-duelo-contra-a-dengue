@@ -1,0 +1,46 @@
+#gameover {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 5%;
+  }
+  
+  #gameover h2,
+  #gameover p {
+    margin-bottom: 1rem;
+    color: #000;
+  }
+
+  #gameover h2 {
+    font-size: 3rem;
+  }
+  
+  #gameover p {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  #gameover img {
+    margin: auto;
+    max-width: 70%;
+  }
+
+  #gameover p.pontuacao{
+    color: #07d600;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  #gameover span.questoes{
+    color: #018fd7;
+  }
+
+  #gameover span.respostas{
+    color: #07d600;
+  }
+
+  #gameover p.complete{
+    font-size: 1.5rem;
+  }

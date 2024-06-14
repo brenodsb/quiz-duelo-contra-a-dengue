@@ -1,0 +1,19 @@
+#dificulty {
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  #dificulty h2,
+  #dificulty p {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+  }
+    
+  #dificulty img {
+    margin-top: 2rem;
+    max-width: 300px;
+  }
+  
+  #dificulty button {
+    margin: 1rem;
+  }
