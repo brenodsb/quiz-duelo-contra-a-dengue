@@ -25,7 +25,7 @@ const Question = () => {
       <p className={"text"}>
         Pergunta {quizState.currentQuestion + 1} de {quizState.questions.length}
       </p>
-      <h2>{currentQuestion.question}</h2>
+      <h2 className={"pergunta"}>{currentQuestion.question}</h2>
       <div id="options-container">
         {currentQuestion.options.map((option) => (
           <Option

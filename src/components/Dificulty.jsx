@@ -18,14 +18,17 @@ const Dificulty = () => {
   return (
     <div id="dificulty">
       <h2>Escolha uma dificuldade:</h2>
-      {quizState.questions.map((question) => (
-        <button
-          onClick={() => chooseCategoryAndReorderQuestions(question.category)}
-          key={question.category}
-        >
-          {question.category}
-        </button>
-      ))}
+      <div id="dificultys">
+        {quizState.questions.map((question) => (
+          <button
+            onClick={() => chooseCategoryAndReorderQuestions(question.category)}
+            key={question.category}
+          >
+            {question.category}
+          </button>
+        ))}
+      </div>
+      
 
       <img src={Category} alt="Dificuldade do Quiz" />
     </div>

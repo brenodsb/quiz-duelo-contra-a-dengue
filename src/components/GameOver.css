@@ -1,16 +1,18 @@
-#gameover {
-    text-align: center;
+  #gameover {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
-    border-radius: 10%;
-    padding: 5%;
-    
+    border-radius: 10px;
+    width: 50vw;
+    height: 80vh;
   }
 
   #gameover h2,
-  #gameover p {
-    margin-bottom: 1rem;
+  #gameover p,
+  #gameover img {
+    margin: 1.2rem;
     color: #000;
   }
 
@@ -24,8 +26,7 @@
   }
 
   #gameover img {
-    margin: auto;
-    max-width: 70%;
+    max-width: 10rem;
   }
 
   #gameover p.pontuacao{
@@ -47,7 +48,32 @@
   }
 
   @media screen and (max-width: 768px) {
+
     #gameover {
-      width: 80%;
+      width: 80vw;
+      height: 90vh;
+    }
+
+    #gameover h2,
+    #gameover p,
+    #gameover img {
+      margin: 1rem;
+    }
+
+    #gameover h2 {
+      font-size: 2rem;
+    }
+  
+    #gameover p.pontuacao{
+      font-size: 2.5rem;
+    }
+
+    #gameover p.complete{
+      font-size: 1rem;
+    }
+
+    #gameover button{
+      font-size: 0.8rem;
+
     }
   }

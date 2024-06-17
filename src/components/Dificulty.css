@@ -1,24 +1,52 @@
-#dificulty {
-    text-align: center;
+  #dificulty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: #ffffff05;
-    border-radius: 10%;
-    padding: 5%;
-    max-width: 500px;
-    height: 70vh;
+    border-radius: 10px;
+    width: 50vw;
+    height: 80vh;
   }
   
   #dificulty h2,
-  #dificulty p {
-    margin-bottom: 1rem;
-    font-size: 3rem;
+  #dificulty p,
+  #dificulty img,
+  #dificulty input{
+    color: #fff;
+    margin: 1.2rem;
+  }
+
+  #dificulty h2{
+    font-size: 2.5rem;
   }
     
-  #dificulty img {
-    margin-top: 5rem;
-    max-width: 10000px;
-  }
-  
   #dificulty button {
-    margin: 1rem;
+    margin: 0 1rem;
   }
+
+  @media screen and (max-width: 768px) {
+    #dificulty h2,
+    #dificulty p,
+    #dificulty img,
+    #dificulty input{
+        margin: 0.5rem;
+    }
+
+    #dificulty {
+        width: 80vw;
+        height: 90vh;
+    }
+
+    #dificulty h2 {
+        font-size: 2rem;
+    }
+
+    #dificulty p {
+        font-size: 1.5rem;
+    }
+
+    #dificulty button {
+      margin: 1rem;
+    }
+}

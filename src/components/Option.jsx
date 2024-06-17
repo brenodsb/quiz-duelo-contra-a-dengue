@@ -20,7 +20,7 @@ const Option = ({ option, selectOption, answer, hide }) => {
         ${hide ? "hide" : ""}
         `}
     >
-      <p>{option}</p>
+      <span>{option}</span>
     </div>
   );
 };
