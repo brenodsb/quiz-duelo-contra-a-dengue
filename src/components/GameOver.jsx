@@ -12,9 +12,9 @@ const GameOver = () => {
   return (
     <div id="gameover">
       <img src={WellDone} alt="Fim do Quiz" />
-      <h2>Congrats ???!</h2>
+      <h2>Parabéns {'{nome}'}!</h2>
       <p className={"pontuacao"}>{(quizState.score/quizState.questions.length)*100}% Score</p>
-      <p className={"complete"}>Quiz completo com sucesso</p>
+      <p className={"complete"}>Quiz finalizado! Sua conscientização é essencial na prevenção da dengue.</p>
       <p>
         Você respondeu <span className={"questoes"}>{quizState.questions.length} questões</span> e <span className={"respostas"}>{quizState.score} respostas</span> estão corretas.
       </p>
