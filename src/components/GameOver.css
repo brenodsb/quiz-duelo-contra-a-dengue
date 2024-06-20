@@ -76,4 +76,12 @@
       font-size: 0.8rem;
 
     }
-  }
+
+   
+}
+.custom-link {
+   font-family: 'Arial', sans-serif;
+   color: #018fd7;
+   text-decoration:none;
+ }
+

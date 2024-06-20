@@ -11,46 +11,52 @@
 
   #question p,
   #question h2,
-  #question #options-container
-  {
+  #question #options-container {
     margin: 1.2rem;
+    font-size: x-large;
   }
 
   #question p.text {
-    color: #018fd7;
+    color: #f7fcff;
+    font-size: x-large;
   }
 
 
   #question button {
-    border: 2px solid #fff;
+    border: 5px solid #f0ecec;
     margin: 1rem;
+    
   }
 
   @media screen and (max-width: 768px) {
+
     #question h2,
     #question p,
     #question img,
     #question input,
-    #question #options-container{
-        margin: 0.5rem;
+    #question #options-container {
+      margin: 0.5rem;
+      
     }
 
     #question {
-        width: 80vw;
-        height: 90vh;
+      width: 80vw;
+      height: 90vh;
+      
     }
 
     #question h2.pergunta {
-        font-size: 1rem;
+      font-size: 2rem;
+    
     }
 
     #question p {
-        font-size: 1rem;
+      font-size: 1rem;
     }
-    
+
 
     #question button {
       margin: 0.2rem;
       font-size: 1rem;
     }
-}
+  }

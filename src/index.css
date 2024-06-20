@@ -4,12 +4,12 @@
   font-family: "Rubik", sans-serif;
   color: #fff;
   text-align: center;
-  
+
 }
 
 body,
 html {
-  background-color: #04d8df;
+  background-color: #1a9ae49e;
 }
 
 img {
@@ -28,3 +28,44 @@ button {
 button:hover {
   background: #00a6f9;
 }
+
+/* Adicionando um pouco de estilo básico para o rodapé */
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo básico para o rodapé 
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+/* Estilo para o link do rodapé 
+footer a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+body {
+  padding-bottom: 90px;
+} */

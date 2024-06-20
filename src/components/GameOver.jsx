@@ -20,6 +20,14 @@ const GameOver = () => {
       </p>
       
       <button onClick={() => dispatch({ type: "NEW_GAME" })}>Reiniciar</button>
+
+      <p></p>
+      <p></p>
+      <p>Referencia graficas utilizadas </p>
+        <a href="https://br.freepik.com/search" className="custom-link">Ícone de Smashicons</a>
+        <a href="https://br.freepik.com/search" className="custom-link">Ícone de Eucalyp</a>
+      
+    
     </div>
   );
 };
