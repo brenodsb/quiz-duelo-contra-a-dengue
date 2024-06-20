@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff05;
+    background-color: #393b3300;
     border-radius: 10px;
     width: 50vw;
     height: 80vh;
@@ -33,7 +33,7 @@
     font-size: 1.2rem;
     border: none;
     border-radius: 5px;
-    background-color: #ffffff0a;
+    background-color: #ffffff47;
 }
 
 #home p.text{
