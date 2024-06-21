@@ -86,3 +86,13 @@ footer a:hover {
 }
 
 }
+
+@media screen and (max-width: 1366px) {
+    #home h2,
+    #home p,
+    #home img,
+    #home input,
+    #home button{
+        margin: 0.5rem;
+    }
+}

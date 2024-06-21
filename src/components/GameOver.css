@@ -76,9 +76,16 @@
       font-size: 0.8rem;
 
     }
-
-   
 }
+
+@media screen and (max-width: 1366px) {
+  #gameover h2,
+  #gameover p,
+  #gameover img {
+    margin: 0.35rem;
+  }
+}
+
 .custom-link {
    font-family: 'Arial', sans-serif;
    color: #018fd7;
