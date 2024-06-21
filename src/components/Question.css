@@ -13,19 +13,19 @@
   #question h2,
   #question #options-container {
     margin: 1.2rem;
-    font-size: x-large;
+    font-size: medium;
   }
 
   #question p.text {
     color: #f7fcff;
-    font-size: x-large;
+    font-size: medium;
   }
 
 
   #question button {
     border: 5px solid #f0ecec;
     margin: 1rem;
-    
+
   }
 
   @media screen and (max-width: 768px) {
@@ -36,18 +36,18 @@
     #question input,
     #question #options-container {
       margin: 0.5rem;
-      
+
     }
 
     #question {
-      width: 80vw;
+      width: 40vw;
       height: 90vh;
-      
+
     }
 
     #question h2.pergunta {
-      font-size: 2rem;
-    
+      font-size: medium;
+
     }
 
     #question p {
