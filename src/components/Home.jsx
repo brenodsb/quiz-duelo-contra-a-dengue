@@ -23,7 +23,6 @@ const Home = () => {
         <p className='bv'>Seja bem-vindo!</p>
         <p className={"text"}>Digite seu nome e clique no botão</p>
         <input  type="text" value={nome} onChange={handleChangeNome} placeholder="Seu nome"></input >
-        <p>{nome}</p>
         <button onClick={() => dispatch({ type: "CHANGE_STAGE" })}>
           Start
         </button>
