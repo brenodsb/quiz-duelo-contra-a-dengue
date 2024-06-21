@@ -16,7 +16,7 @@ const GameOver = () => {
     } else  if(score > 7) {
       return 'Muito bem! Mas você ainda pode melhorar.';
     } else {
-      return 'Parabéns! Você foi incrível.';
+      return 'Parabéns! Você foi incrível!';
     }
   }
 
