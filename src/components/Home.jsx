@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { QuizContext } from '../context/quiz';
 
 import Quiz from '../img/file.png';
@@ -8,6 +8,13 @@ import './Home.css';
 
 const Home = () => {
   const [quizState, dispatch] = useContext(QuizContext);
+  const [nome, setNome] = useState('');
+
+  const handleChangeNome = (event) => {
+    const newName = event.target.value;
+    setNome(newName);
+    localStorage.setItem('nome', newName); // Salva o nome no localStorage
+  }
 
   return (
     <div id="home">
@@ -15,7 +22,8 @@ const Home = () => {
         <img src={Quiz} alt="DUELO CONTRA A DENGUE" />
         <p className='bv'>Seja bem-vindo!</p>
         <p className={"text"}>Digite seu nome e clique no botão</p>
-        <input  placeholder="Seu nome"></input >
+        <input  type="text" value={nome} onChange={handleChangeNome} placeholder="Seu nome"></input >
+        <p>{nome}</p>
         <button onClick={() => dispatch({ type: "CHANGE_STAGE" })}>
           Start
         </button>
